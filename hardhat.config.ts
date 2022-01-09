@@ -3,8 +3,8 @@ import '@typechain/hardhat'
 import '@nomiclabs/hardhat-ethers'
 import { task } from "hardhat/config";
 import "solidity-coverage"
-const path = require('path')
-require('dotenv').config({ path: path.resolve(__dirname, './.env') })
+import * as dotenv from "dotenv";
+dotenv.config({ path: __dirname+'/.env' });
 
 
 task("deployRouterRopsten", "Deploys the contract", async (taskArgs, hre) => {

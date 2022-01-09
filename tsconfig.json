@@ -28,7 +28,9 @@
     "acceptance-tests",
     "webpack",
     "jest",
-    "src/setupTests.ts"
+    "src/setupTests.ts",
+    "test",
+    "typechain"
   ],
   "include": ["./scripts", "./test", "./typechain"],
   "files": ["./hardhat.config.ts"]
