@@ -15,6 +15,7 @@
     - `npx hardhat deployRouterRinkeby --network rinkeby` then copy address to REACT_APP_ROUTERRINKEBY_ADDRESS
     - `npx hardhat deployERCPermit --network ropsten` then copy address somewhere, so you can use it later
 
+- `npx hardhat clean`
 - `npm run start`
 
 ### To Run the Tests
