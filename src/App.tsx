@@ -244,7 +244,7 @@ const App = () => {
           chainId={chainId}
           killSession={resetApp}
         />
-        <BridgeComponent
+        {connected && <BridgeComponent
           onArrow={() => {
             setHasLocked(false);
             setInNetworkToClaim(false);
@@ -254,6 +254,7 @@ const App = () => {
           library={library}
           getLibrary={getLibrary}
         />
+        }
         <SContent>
           {fetching ? (
             <Column center>
