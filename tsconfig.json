@@ -29,8 +29,7 @@
     "webpack",
     "jest",
     "src/setupTests.ts",
-    "test",
-    "typechain"
+    "test"
   ],
   "include": ["./scripts", "./test", "./typechain"],
   "files": ["./hardhat.config.ts"]
