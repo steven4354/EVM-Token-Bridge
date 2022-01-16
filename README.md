@@ -1,3 +1,9 @@
+# Notes
+
+I think the permit contract wouldn't work if the bridge is supposed to be between an EVM and also a non-EVM chain
+
+An approach would be to reuse all the functions in the Router contracts as an interface and remove the Erc20Permit code inside them to use an oracle instead
+
 # EVM Token Bridge Simulator
 
 - This version of the project uses ERC20 Permit mechanism to lock the tokens into the source router contract
@@ -25,3 +31,11 @@ Note: the tests use TypeChain
 - `npx hardhat node`
 - `npx hardhat test`
 - To run the tests with code coverage: `npx hardhat coverage --network hardhat`
+
+## Faucets
+
+https://faucet.rinkeby.io/
+https://faucet.ropsten.be/
+https://faucet.dimensions.network/
+
+
